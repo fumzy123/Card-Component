@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+
+/** Project one **/
+.card-component{
+
+    /** Box Model **/
+        /* box-sizing */
+        width: 600px;
+
+        /* box-border */
+        border: 1px solid black;
+        border-radius: 10px;
+
+        /* box-spacing */
+        padding: 20px;
+        margin-inline: auto;
+        margin-top: 20rem;
+
+    /** Background **/
+    background-color: #000000;
+
+    /** Typography **/
+    font-family: 'Poppins', sans-serif; 
+    color: rgb(128, 128, 128);
+}
+
+.card-name{
+
+    /** Box Model **/
+
+        /* box-spacing */
+        margin-bottom: 20px;
+
+    /** Typography **/
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.card-tagline{
+
+    /** Box Model **/
+        /* box-spacing */
+        margin-bottom: 20px;
+    
+    /** Typography **/
+    color: white;
+    text-transform: capitalize;
+}
+
+.card-text{
+
+    /** Box Model **/
+        /* box-spacing */
+        margin-bottom: 20px;
+    
+    /** Typography **/
+    font-weight: 400;
+    max-width: 60ch;
+}
+
+
+.emphasis{
+    /** Typography **/
+    color: white;
+    font-weight: 700;
+}
+
+.card-button{
+
+    /** Box Model **/
+
+        /* box-size */
+        width: 120px;
+
+        /* box-border */
+        border: none;
+        border-radius: 10px;
+
+        /* box-spacing */
+        padding: 10px;
+
+    /** Box Background **/
+    background-color: white;
+
+    /** Typography **/
+    font-weight: 700;
+
+    /** Visual Interaction **/
+    cursor: pointer;
+}
+
+
+
+
